@@ -7,7 +7,7 @@
         <div class="row mx-5">
             <img style="height:250px; width:450px" src="{{ $random_book->image }}" alt="">
             <div class="col">
-                <p class="border-bottom border-2 border-dark" style="font-size: 12px; width: 14%;"><b>IT REALLY COUNTS</b></p>
+                <p class="border-bottom border-2 border-dark" style="font-size: 12px; width: 13%;"><b>IT REALLY COUNTS</b></p>
                 <p class="fs-1 fw-bold lh-1">
                     <a class="text-decoration-none text-reset" href="/detail/{{ $random_book->id }}">{{ $random_book->title }}</a>
                 </p>

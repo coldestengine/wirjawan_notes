@@ -10,7 +10,7 @@
             <p>{{ $book->description }}</p>
             <div class="row mb-3">
                 <div class="col">
-                    <p>By <b>{{ $book->author }}</b> | 19 April, 2023 <span class="btn btn-primary py-0 disabled ms-1" style="height: 20px; font-size: 12px;">{{ $book->reading_time}}</span></p>
+                    <p>By <b>{{ $book->author }}</b> | {{ date('d M, Y', $book->created_at->timestamp) }} <span class="btn btn-primary py-0 disabled ms-1" style="height: 20px; font-size: 12px;">{{ $book->reading_time}}</span></p>
                 </div>
             </div>
 
